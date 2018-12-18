@@ -34,4 +34,4 @@ export class Wallet extends React.Component {
         )
     }
 }
-export default connect(state => { return { balance: state } }, { deposit , withdraw }, null)(Wallet);
+export default connect(state => { return { balance: state.balance } }, { deposit , withdraw }, null)(Wallet);
