@@ -14,4 +14,7 @@ describe('App', () => {
     it('should contain a connected loot component', () => {
         expect(app.find('Connect(Loot)').exists()).toBe(true);
     });
+    it('should contain a lin to the coindesk price page', () => {
+        expect(app.find('a').props().href).toBe('https://www.coindesk.com/price/bitcoin')
+    });
 });

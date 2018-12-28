@@ -51,10 +51,4 @@ describe('Loot', () => {
 });
 
 
-// describe('when there are valid bitcoin props', () => {
-//   beforeEach(() => {
-//       props = { balance: 10, bitcoin: { bpi: { USD: { rate: '1,000' } } } };
-//       loot = shallow(<Loot {...props} />)
-//   });
-// })
 
