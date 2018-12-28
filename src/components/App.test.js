@@ -11,4 +11,7 @@ describe('App', () => {
     it('should contain a wallet component', () => {
         expect(app.find('Connect(Wallet)').exists()).toBe(true);
     });
+    it('should contain a connected loot component', () => {
+        expect(app.find('Connect(Loot)').exists()).toBe(true);
+    });
 });
